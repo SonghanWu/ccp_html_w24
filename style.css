@@ -1,0 +1,29 @@
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav a.active, nav a:hover {
+    color: #0294A5;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #0294A5;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
