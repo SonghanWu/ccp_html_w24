@@ -3,8 +3,22 @@ nav a {
     text-decoration: none;
 }
 
-nav a.active, nav a:hover {
-    color: #0294A5;
+.nav-link.active {
+    color: #004785;
+    font-weight: bold;
+    border-bottom: 1px solid #ADD8E6;
+    background-color: #FFF0F5;
+    font-size: 1.1em;
+    padding-bottom: 1px;
+}
+
+nav a:hover {
+    color: #3C763D;
+    font-weight: normal;
+    border-bottom: 0.5px dashed #90EE90;
+    background-color: transparent;
+    font-size: 1.05em;
+    padding-bottom: 0.5px;
 }
 
 .skip-link {
