@@ -3,7 +3,7 @@ body {
 }
 
 .intro {
-    background-color: hsla(240, 100%, 97%, 0.5);
+    background-color: hsla(240, 100%, 95%, 0.5);
 }
 
 .title{
@@ -78,6 +78,11 @@ ul {
 }
 
 .photo-gallery_ani {
+    gap: 40px;
+    padding: 20px;
+}
+
+.photo-gallery_recp {
     gap: 40px;
     padding: 20px;
 }
@@ -182,10 +187,14 @@ figcaption {
     .photo-gallery {
         grid-template-columns: 1fr;
     }
+
+    .video-gallery {
+        flex-wrap: wrap;
+    }
 }
 
 
-@media (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 900px) {
     #img1 {
         grid-column: 1;
         grid-row: 1 / span 3;
